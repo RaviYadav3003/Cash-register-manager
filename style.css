@@ -9,7 +9,7 @@ a {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   min-width: 100vw;
   
 }
@@ -18,9 +18,8 @@ body {
   margin: 12px;
 }
 
-/* Container */
 .container {
-  margin: 4rem auto 7rem;
+  margin: 4.5rem auto 7rem;
   text-align: center;
 }
 
@@ -28,9 +27,9 @@ body {
   color: #edc33a;
 }
 
-.description {
+.desc {
   font-size: larger;
-  margin: 1rem;
+  margin: 2rem;
 }
 
 .labelInput {
@@ -51,7 +50,7 @@ body {
 }
 
 #button {
-  background: #464602;
+  background: #edc33a;
   border: none;
   color: #fff;
   padding: 0.7rem 1rem;
@@ -63,13 +62,15 @@ body {
   display: block;
 }
 
+#button:hover{
+  background-color: #464602;
+}
 #displayMessage {
   display: block;
   font-size: larger;
-  margin: 1rem 0 0;
+  margin: 1rem ;
 }
 
-/* Table */
 .table {
   width: 50%;
   text-align: justify;
@@ -83,10 +84,8 @@ body {
   font-weight: 500;
 }
 
-th,
-td {
+th,td {
   border: 2px solid #edc33a;
-  border-collapse: collapse;
   padding: 0.4rem;
 }
 footer{
@@ -104,9 +103,7 @@ footer p {
   margin: 1rem;
 }
 
-a,
-img,
-li {
+a,img,li {
   display: inline;
 }
 
